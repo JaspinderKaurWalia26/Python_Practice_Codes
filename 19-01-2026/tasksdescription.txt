@@ -22,3 +22,7 @@
 6.1 Extracting Initials: Write a program that asks the user for their full name and extracts their initials using string slicing.
 6.2 Reversing Words: Write a function that takes a sentence as input and reverses each word in the sentence using string slicing.
 6.3 Palindrome Checker: Write a program that checks if a given string is a palindrome (reads the same forwards and backward) using string slicing.
+
+7.1 Personalized Greeting: Write a program that asks the user for their name and favorite color, then uses f-strings to create a personalized greeting message.
+7.2 Table Formatter: Create a list of dictionaries, where each dictionary represents a person with keys like "name", "age", and "city". Use f-strings to format this data into a table-like output.
+7.3 Receipt Generator: Write a program that takes a list of items and their prices as input, then uses f-strings to generate a formatted receipt.
