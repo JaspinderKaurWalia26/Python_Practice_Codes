@@ -1,3 +1,5 @@
+1 List Methods
+
 2.1 Age Checker: Write a program that asks the user for their age. If the age is less than 13, print "You are a child." If the age is between 13 and 19 (inclusive), print "You are a teenager." Otherwise, print "You are an adult."
 2.2 Number Classifier: Write a program that asks the user for a number. Determine if the number is positive, negative, or zero, and print an appropriate message.
 2.3 Grade Calculator: Write a program that asks the user for their score on a test (out of 100). Assign a grade based on the following scale:
@@ -7,7 +9,6 @@
     60-69: D
     Below 60: F
     Print the corresponding grade.
-2.4 Leap Year Checker: Write a program that asks the user for a year. Determine if the year is a leap year. A leap year is divisible by 4, but not divisible by 100 unless it is also divisible by 400. Print whether the year is a leap year or not.
 
 3.1 Even Number Finder: Write a program that takes a list of numbers. Use a for loop to iterate through the list. If a number is odd, print it. If you encounter the number 10, stop the loop.
 3.2 Vowel Skipper: Write a program that takes a string as input. Iterate through the string using a for loop. Print each character, but skip vowels (a, e, i, o, u).
