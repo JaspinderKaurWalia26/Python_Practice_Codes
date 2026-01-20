@@ -1,0 +1,22 @@
+2.1 Age Checker: Write a program that asks the user for their age. If the age is less than 13, print "You are a child." If the age is between 13 and 19 (inclusive), print "You are a teenager." Otherwise, print "You are an adult."
+2.2 Number Classifier: Write a program that asks the user for a number. Determine if the number is positive, negative, or zero, and print an appropriate message.
+2.3 Grade Calculator: Write a program that asks the user for their score on a test (out of 100). Assign a grade based on the following scale:
+    90-100: A
+    80-89: B
+    70-79: C
+    60-69: D
+    Below 60: F
+    Print the corresponding grade.
+2.4 Leap Year Checker: Write a program that asks the user for a year. Determine if the year is a leap year. A leap year is divisible by 4, but not divisible by 100 unless it is also divisible by 400. Print whether the year is a leap year or not.
+
+3.1 Even Number Finder: Write a program that takes a list of numbers. Use a for loop to iterate through the list. If a number is odd, print it. If you encounter the number 10, stop the loop.
+3.2 Vowel Skipper: Write a program that takes a string as input. Iterate through the string using a for loop. Print each character, but skip vowels (a, e, i, o, u).
+3.3 Positive Sum: Write a program that takes a list of numbers. Calculate the sum of only the positive numbers in the list. Use a for loop and the continue statement.
+3.4 Nested Loop Break: Create a nested loop where the outer loop iterates from 1 to 5, and the inner loop iterates from 1 to 5. If the product of the outer and inner loop variables is greater than 12, break out of the inner loop. Print the values of the outer and inner loop variables for each iteration.
+
+Guessing Game
+Difficulty Levels: Modify the game to allow the player to choose between "Easy" (1-10), "Medium" (1-100), and "Hard" (1-1000) difficulty levels. Use if/elif/else statements to set the lower_bound and upper_bound variables based on the chosen difficulty.
+Limited Guesses: Add a limit to the number of guesses the player can make (e.g., 7 guesses). If the player fails to guess the number within the limit, reveal the secret number and end the game. Use a while loop condition that checks both if the player has guessed correctly and if they have remaining guesses.
+Play Again: After the game ends, ask the player if they want to play again. If they enter "yes" (or "y"), restart the game. Use a while loop to control whether the game continues to be played.
+
+ATM MENU CARD
