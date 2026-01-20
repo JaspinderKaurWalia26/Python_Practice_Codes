@@ -19,4 +19,8 @@ Difficulty Levels: Modify the game to allow the player to choose between "Easy" 
 Limited Guesses: Add a limit to the number of guesses the player can make (e.g., 7 guesses). If the player fails to guess the number within the limit, reveal the secret number and end the game. Use a while loop condition that checks both if the player has guessed correctly and if they have remaining guesses.
 Play Again: After the game ends, ask the player if they want to play again. If they enter "yes" (or "y"), restart the game. Use a while loop to control whether the game continues to be played.
 
-ATM MENU CARD
+ATM MENU CARD:
+1.Withdrawl
+2.Deposit
+3.Check Balance
+4.Exit 
