@@ -1,0 +1,36 @@
+Hands-On Task: Build a Simple Student Grade Tracker
+ Objective
+Create a small Python program that:
+Uses functions with different types of parameters (*args, **kwargs)
+Demonstrates return values, closures, and lambda functions
+Imports and uses a standard library module
+📘 Task Description
+You need to build a grade tracking system with the following requirements:
+
+Add Students
+    Create a function add_students(*names) that takes a variable number of student names and returns a list of them
+
+Record Grades
+    Write a function record_grades(**grades) that takes keyword arguments (where the key is the student name and the value is the grade).|
+
+Calculate Average (Closure)
+    Create a closure create_avg_calculator() that returns a function add_score(score) which keeps track of total scores and number of entries, and returns the current average after each call.
+
+Use a Lambda Function
+    Write a one-line lambda function that increases all grades by 5 points.
+
+Use a Built-in Module
+    Import the statistics module and use statistics.mean() to calculate the average of a list of grades.
+
+Global Variable Practice
+    Create a global variable grade_scale = "A-F".
+    Write a function set_grade_scale(scale) that changes this global variable using the global keyword.
+
+Final Output
+    Print a summary showing:
+    All student names
+    Their grades
+    The overall average
+    The current grading scale
+Bonus Challenge
+Add a function top_students(grades_dict, threshold) that uses a list comprehension to return a list of students scoring above the given threshold.
