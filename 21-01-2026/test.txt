@@ -1,0 +1,7 @@
+Python is a popular programming language.
+It is easy to learn and very powerful.
+File handling is an important part of Python.
+
+Always remember:
+Use try-except to handle errors.
+Use with open() for safe file handling.

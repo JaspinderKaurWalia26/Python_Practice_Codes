@@ -1,0 +1,99 @@
+# OPEN AND CLOSE FILE ----------------------------------------
+try:
+    # Example: Opening a file in read mode
+    file = open("doc.txt", "r")
+    # Example: Opening a file in write mode
+    file = open("report.txt", "w")
+    # Example: Opening a file in append mode
+    file = open("application.log", "a")
+    # Example: Opening a file in binary read mode
+    file = open("image.jpg", "rb")
+except FileNotFoundError:
+    print("Error: The file was not found.")
+
+
+try:
+    file = open("nonexistent_file.txt", "r")
+    # Perform operations on the file
+except FileNotFoundError:
+    print("Error: The file 'nonexistent_file.txt' was not found.")
+
+# file.close()
+
+# with ----------
+with open("6Sixth\doc.txt", "r") as file:
+    # Perform operations on the file
+    content = file.read()
+# The file is automatically closed here
+print(content)
+
+
+# Writing to a file
+with open("report.txt", "w") as file:
+    file.write("This is a sample report.\n")
+    file.write("It contains important information.\n")
+
+# Appending to a file
+with open("application.log", "a") as file:
+    file.write("Log entry: An event occurred.\n")
+
+# Exclusive File Creation
+try:
+    with open("new_file.txt", "x") as file:
+        file.write("This is a new file.\n")
+except FileExistsError:
+    print("Error: The file 'new_file.txt' already exists.")
+
+
+# Reading Data from Files: Line by Line------------------------------------
+
+# using a for loop ------------
+filename = "6Sixth\doc.txt"
+
+try:
+    with open(filename, 'r') as file:
+        for line in file:
+            # Process each line
+            print(line.strip())  # Remove leading/trailing whitespace
+except FileNotFoundError:
+    print(f"Error: The file '{filename}' was not found.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+
+
+# Using readline() -------------
+
+try:
+    with open(filename, 'r') as file:
+        line = file.readline()
+        while line:
+            print(line.strip())
+            line = file.readline()
+except FileNotFoundError:
+    print(f"Error: The file '{filename}' was not found.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+
+# Read the entire file ------------------
+
+try:
+    with open(filename, 'r') as file:
+        content = file.read()
+        print(content)
+except FileNotFoundError:
+    print(f"Error: The file '{filename}' was not found.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+
+
+# Read specific content of file
+try:
+    with open(filename, 'r') as file:
+        chunk1 = file.read(10)  # Read the first 10 characters
+        print("Chunk 1:", chunk1)
+        chunk2 = file.read(15)  # Read the next 15 characters
+        print("Chunk 2:", chunk2)
+except FileNotFoundError:
+    print(f"Error: The file '{filename}' was not found.")
+except Exception as e:
+    print(f"An error occurred: {e}")

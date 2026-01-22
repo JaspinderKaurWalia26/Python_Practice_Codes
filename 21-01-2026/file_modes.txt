@@ -1,0 +1,29 @@
+Read Mode ('r'): This mode is used for reading data from a file.
+                 If the file doesn't exist, Python will raise a FileNotFoundError
+
+Write Mode ('w'): This mode is used for writing data to a file. 
+                  If the file exists, its contents will be overwritten. 
+                  If the file doesn't exist, Python will create a new file.
+
+Append Mode ('a'): This mode is used for adding data to the end of an existing file. 
+                    If the file doesn't exist, Python will create a new file. 
+                    The existing content of the file is preserved.
+
+Exclusive Creation Mode ('x'): This mode is used for creating a new file, but only if it doesn't already exist.
+                                 If the file exists, Python will raise a FileExistsError.
+
+Binary Mode ('b'): This mode is used for working with binary files, such as images or audio files. 
+                    It can be combined with any of the other modes (e.g., 'rb' for reading a binary file, 'wb' for writing a binary file).
+
+Text Mode ('t'): This mode is used for working with text files. 
+                 It's the default mode if you don't specify one. 
+                 It can be combined with any of the other modes (e.g., 'rt' for reading a text file, 'wt' for writing a text file).
+
+Update Mode ('+'): This mode allows you to both read and write to a file. 
+                    It must be combined with one of the other modes (e.g., 'r+' for reading and writing to an existing file, 'w+' for creating a new file for reading and writing).
+
+
+
+open() -> open(filename, mode) - open file in python, syntax 
+close() -> file.close - to close a file   
+with - safe way to work with file, you do not need to close the file explicitly

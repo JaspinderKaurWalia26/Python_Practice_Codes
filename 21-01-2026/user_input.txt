@@ -1,0 +1,2 @@
+Python is a versatile language'
+It is easy to learn python.
