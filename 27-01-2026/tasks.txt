@@ -1,9 +1,0 @@
-Task 1: The Checkerboard Challenge
-Create an $8 \times 8$ matrix and fill it with a checkerboard pattern (0s and 1s) using slicing only (no loops).
-
-• Task 2: Normalization Logic
-Create a random $5 \times 5$ matrix. Calculate the mean and standard deviation. Then, "normalize" the matrix so that the data has a mean of 0 and a standard deviation of 1 using the formula:
-$$Z = \frac{x - \mu}{\sigma}$$
-
-• Task 3: Border Control
-Create a $10 \times 10$ array of 1s. Change the internal values to 0 so that you are left with a "border" of 1s around the edges.
