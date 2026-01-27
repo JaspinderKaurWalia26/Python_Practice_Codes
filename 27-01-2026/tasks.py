@@ -38,7 +38,7 @@ Create a 10*10 array of 1s. Change the internal values to 0 so that you are left
 
 #Creating a 10*10 array initially filled with 1s
 border=np.ones((10,10),dtype=int)
-#Filling the rows and columns with 0 except the starting and ending rows
+#Filling the rows and columns with 0 except the starting and ending rows/columns
 border[1:-1,1:-1]=0
 #Printing the array with internal values set to zero and border values set to one 
 print(border)
