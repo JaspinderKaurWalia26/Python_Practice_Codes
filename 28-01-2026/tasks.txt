@@ -1,0 +1,9 @@
+Task 1: The "Manual" Spreadsheet Create a DataFrame representing 5 employees at Vidya Corporation.Columns: Name, Department, Salary, and Years_of_Experience.The Challenge: Display only the Name and Salary columns and Calculate the average salary of all employees using the .mean() method.
+Task 2: Filtering the Workforce (Conditional Selection)Using the same DataFrame from Task 1, write a script to find:All employees with more than 3 years of experience.All employees who work in the "Software Development" department.The Challenge: Increase the salary of everyone in "Software Development" by 10% in the DataFrame.
+Task 3:Create a CSV file (or a dictionary) where some values are missing (use None or np.nan).The Challenge: 1. Use .isnull().sum() to find out which columns have missing data. 2. Fill the missing Salary values with the Median salary of the company. 3. Drop any rows where the Name is missing entirely.
+Task 4: Real-World SEO Report Analysis
+Task: Imagine a CSV with 100 rows of website data: URL, Clicks, Impressions, and CTR (Click-Through Rate).
+Challenge:
+Use .describe() to get a statistical summary (mean, max, min) of the clicks and impressions.
+Sort the DataFrame by Clicks in descending order to find the top-performing page.
+Create a new column called Engagement_Score which is Clicks + (Impressions * 0.1).
