@@ -1,4 +1,5 @@
 """
+Pandas Library Tasks
 Task 1: The "Manual" Spreadsheet Create a DataFrame representing 5 employees at Vidya Corporation.Columns: Name, Department, Salary, and Years_of_Experience.The Challenge: Display only the Name and Salary columns and Calculate the average salary of all employees using the .mean() method.
 """
 # importing pandas 
