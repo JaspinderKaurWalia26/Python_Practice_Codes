@@ -1,0 +1,17 @@
+Asynchronous Programming (VERY IMPORTANT)
+
+Concepts to cover:
+What is blocking vs non-blocking
+Why async is needed
+async / await
+Event loop
+asyncio.run()
+gather () vs create_task()
+Hands-on
+Fetch multiple APIs asynchronously
+Async file reading
+
+Async sleep demo
+
+Mini Task
+Build an async script that hits 5 APIs concurrently and logs response times
